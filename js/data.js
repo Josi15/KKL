@@ -118,10 +118,7 @@ const siteData = {
     {
       name: "Dhini Aulia",
       nim: "24670060",
-
       role: "Laporan",
-
-
       note: "Jembatan komunikasi dengan mentor dan pembawa materi presentasi kelompok.",
       linkedin: "https://linkedin.com",
       instagram: "https://instagram.com"
