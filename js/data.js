@@ -118,7 +118,11 @@ const siteData = {
     {
       name: "Dhini Aulia",
       nim: "24670060",
+<<<<<<< HEAD
       role: "Laporan",
+=======
+      role: "Laporan & fotografer",
+>>>>>>> f7131adf5e9ff31a45baae5baad7a7e2f58a113a
       note: "Jembatan komunikasi dengan mentor dan pembawa materi presentasi kelompok.",
       linkedin: "https://linkedin.com",
       instagram: "https://instagram.com"
@@ -166,7 +170,11 @@ const siteData = {
     {
       name: "Putra Ramadani",
       nim: "24670088",
+<<<<<<< HEAD
       role: "Laporan",
+=======
+      role: "Videografer",
+>>>>>>> f7131adf5e9ff31a45baae5baad7a7e2f58a113a
       note: "Mencatat dan mengelola keperluan dana kelompok selama perjalanan.",
       linkedin: "https://linkedin.com",
       instagram: "https://instagram.com"
@@ -174,7 +182,11 @@ const siteData = {
     {
       name: "Shandy Mahendra Ananta",
       nim: "246700135",
+<<<<<<< HEAD
       role: "Laporan",
+=======
+      role: "Desain",
+>>>>>>> f7131adf5e9ff31a45baae5baad7a7e2f58a113a
       note: "Menyiapkan materi visual dan publikasi dokumentasi kelompok.",
       linkedin: "https://linkedin.com",
       instagram: "https://instagram.com"
