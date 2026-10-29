@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kelompok 8 | KKL Informatika 2024</title>
+  <meta name="description" content="Dokumentasi & Jurnal Kuliah Kerja Lapangan Kelompok 8 Informatika Angkatan 2024">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="scroll-progress" id="scrollProgress" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-label="Progress membaca halaman"></div>
+
+  <header class="site-header" id="siteHeader">
+    <div class="header-inner">
+      <a href="#hero" class="brand">Kelompok 8 <span>|</span> KKL IF24</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Buka navigasi" aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav" id="siteNav" aria-label="Navigasi utama">
+        <a href="#hero" data-nav>Beranda</a>
+        <a href="#about" data-nav>Tentang</a>
+        <a href="#highlights" data-nav>Highlights</a>
+        <a href="#timeline" data-nav>Timeline</a>
+        <a href="#gallery" data-nav>Galeri</a>
+        <a href="#team" data-nav>Tim</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="hero-content">
+        <p class="hero-brand">Kelompok 8 · Informatika 2024</p>
+        <h1>Journey &amp; Documentation: KKL Informatika 2024</h1>
+        <p class="hero-sub">Lima hari di Bali: belajar dari industri, menyelami budaya, dan merajut kebersamaan Kelompok 8.</p>
+        <div class="hero-stats" id="heroStats"></div>
+        <a href="#timeline" class="scroll-cue" aria-label="Gulir ke timeline">
+          <span>Jelajahi Perjalanan</span>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M12 5v14M5 12l7 7 7-7"/>
+          </svg>
+        </a>
+      </div>
+    </section>
+
+    <section class="about-section" id="about">
+      <div class="container about-grid">
+        <div class="reveal">
+          <p class="eyebrow">Tentang KKL</p>
+          <h2>Belajar dari lapangan, pulang dengan cerita</h2>
+          <p class="about-text" id="aboutText"></p>
+          <div class="chip-row" id="aboutChips"></div>
+        </div>
+        <figure class="about-photo reveal">
+          <img src="assets/foto_bersama_pandawa.jpeg" alt="Foto bersama peserta KKL Informatika UPGRIS di Pantai Pandawa" loading="lazy">
+          <figcaption>Keluarga besar KKL Informatika UPGRIS di Pantai Pandawa</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="highlights" id="highlights">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Highlights</p>
+          <h2>Apa yang kami bawa pulang dari lapangan?</h2>
+          <p class="section-lead">Ringkasan pengalaman yang membentuk perjalanan KKL Kelompok 8 dari ruang industri hingga momen kebersamaan.</p>
+        </header>
+        <div class="highlight-grid" id="highlightGrid"></div>
+      </div>
+    </section>
+
+    <section class="timeline-section" id="timeline">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Timeline Journey</p>
+          <h2>Hari demi hari di lapangan</h2>
+          <p class="section-lead">Agenda, kunjungan, dan cerita yang kami dokumentasikan sepanjang rangkaian KKL.</p>
+        </header>
+        <div class="timeline" id="timelineList"></div>
+      </div>
+    </section>
+
+    <section class="gallery-section" id="gallery">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Galeri</p>
+          <h2>Jejak visual perjalanan</h2>
+          <p class="section-lead">Kumpulan foto dari kunjungan industri, kuliah umum, dan momen kebersamaan kelompok.</p>
+        </header>
+        <div class="gallery-filters" id="galleryFilters" role="tablist" aria-label="Filter galeri"></div>
+        <div class="gallery-grid" id="galleryGrid"></div>
+      </div>
+    </section>
+
+    <section class="team-section" id="team">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Meet Kelompok 8</p>
+          <h2>Wajah di balik dokumentasi ini</h2>
+          <p class="section-lead">Anggota Kelompok 8 Informatika Angkatan 2024 beserta peran dan kesan singkat selama KKL.</p>
+        </header>
+        <div class="team-grid" id="teamGrid"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-copy">
+        <p class="footer-thanks">Terima kasih kepada seluruh pihak yang membuka ruang belajar bagi kami di lapangan.</p>
+        <p class="footer-meta">&copy; <span id="year"></span> Kelompok 8 · Informatika 2024 · Dokumentasi KKL</p>
+      </div>
+      <button class="back-top" id="backTop" type="button" aria-label="Kembali ke atas">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <path d="M12 19V5M5 12l7-7 7 7"/>
+        </svg>
+        <span>Ke atas</span>
+      </button>
+    </div>
+  </footer>
+
+  <div class="lightbox" id="lightbox" hidden>
+    <div class="lightbox-backdrop" data-close-lightbox></div>
+    <div class="lightbox-panel" role="dialog" aria-modal="true" aria-labelledby="lightboxCaption">
+      <button class="lightbox-close" type="button" data-close-lightbox aria-label="Tutup">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <path d="M18 6L6 18M6 6l12 12"/>
+        </svg>
+      </button>
+      <img id="lightboxImage" src="" alt="">
+      <p class="lightbox-caption" id="lightboxCaption"></p>
+    </div>
+  </div>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
