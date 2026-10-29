@@ -22,12 +22,20 @@ const siteData = {
       description:"Perjalanan KKL dimulai dengan persiapan administrasi, briefing teknis dari dosen pembimbing, dan pembagian peran kelompok. Semua anggota berkumpul dengan semangat tinggi sebelum berangkat menuju Bali.",
       fact:"Momen awal yang menyatukan seluruh anggota Kelompok 8.",
       tags:["Persiapan","Perjalanan"],
+<<<<<<< HEAD
       images:[{src:"assets/briefing_keberangkatan.jpeg",alt:"Peserta KKL berjaket almamater mengikuti briefing di aula sebelum keberangkatan"}]},
+=======
+      images:[{src:"https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=900&q=80",alt:"Briefing tim sebelum keberangkatan"},{src:"https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=900&q=80",alt:"Diskusi persiapan dokumen KKL"}]},
+>>>>>>> e817f00c8d65d38f3ded65419343005dc8fb5987
     {day:"Day 1",date:"18 Agustus 2026",title:"Kunjungan Industri ke PT. Victoria Care Indonesia",place:"PT. Victoria Care Indonesia",
       description:"Bersama pemandu tur, kami menyusuri fasilitas produksi: mulai dari pembuatan dan pengemasan produk kesehatan, pengolahan air limbah, hingga berbelanja produk hasil Victoria Care Indonesia. Kunjungan ini memberi gambaran nyata bagaimana industri menjaga kualitas dan tanggung jawab lingkungan.",
       fact:"Belajar bahwa proses produksi yang baik harus disertai pengolahan limbah yang bertanggung jawab.",
       tags:["Industri","Produksi"],
+<<<<<<< HEAD
       images:[{src:"assets/pt victoria care.png",alt:"Lobi PT. Victoria Care Indonesia dengan Beauty Cafe dan Oemah Herborist"}]},
+=======
+      images:[{src:"https://images.unsplash.com/photo-1497366216548-37526070297c?w=900&q=80",alt:"Ruang kerja perusahaan"},{src:"https://images.unsplash.com/photo-1553877522-43269d4ea984?w=900&q=80",alt:"Presentasi tim"},{src:"https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=900&q=80",alt:"Sesi tanya jawab"}]},
+>>>>>>> e817f00c8d65d38f3ded65419343005dc8fb5987
     {day:"Day 2",date:"19 Agustus 2026",title:"Wisata Candi Kuning & Pura Ulun Danu Beratan",place:"Candi Kuning, Bedugul",
       description:"Pura Ulun Danu Beratan berdiri anggun di tepi Danau Beratan dengan meru bertingkat beratap hitam yang menjadi ikon Bali. Udara sejuk pegunungan, taman bunga warna-warni, dan suasana tenang membuat kami belajar menghargai harmoni alam dan budaya Bali.",
       fact:"Pura ini dikenal sebagai tempat pemujaan Dewi Danu, dewi air dan kesuburan.",
@@ -37,7 +45,11 @@ const siteData = {
       description:"Kami mampir ke Joger, toko yang terkenal dengan kaos dan suvenir berkata-kata jenaka, lalu menikmati taman tepi Danau Beratan. Hamparan rumput hijau, bunga warna-warni, dan perbukitan di seberang danau jadi tempat istirahat yang menyegarkan.",
       fact:"Kreativitas kata-kata bisa jadi identitas merek yang kuat.",
       tags:["Wisata","Alam","Kreatif"],
+<<<<<<< HEAD
       images:[{src:"assets/joger.png",alt:"Gerbang Joger, Pabrik Kata-kata, di Bali"},{src:"assets/pemandangan_bedugul.jpeg",alt:"Taman tepi Danau Beratan dengan perbukitan hijau"}]},
+=======
+      images:[{src:"assets/pemandangan_bedugul.jpeg",alt:"Taman tepi Danau Beratan dengan perbukitan hijau"}]},
+>>>>>>> e817f00c8d65d38f3ded65419343005dc8fb5987
     {day:"Day 2",date:"19 Agustus 2026",title:"Menyaksikan Pertunjukan Devdan Show",place:"Nusa Dua, Bali",
       description:"Malam harinya kami menyaksikan Devdan Show, pertunjukan seni yang memadukan tari, musik, dan tata panggung megah yang menampilkan kekayaan budaya Nusantara. Setelah pertunjukan, kami berfoto bersama para penari di atas panggung.",
       fact:"Satu panggung merangkum keragaman budaya dari berbagai daerah di Indonesia.",
@@ -47,12 +59,17 @@ const siteData = {
       description:"Kuliah umum membahas sistem kerja dan pemanfaatan teknologi di Balai Diklat Industri Denpasar. Materi utama berfokus pada penggunaan Adobe Lightroom untuk editing foto, mulai dari pengaturan warna hingga alur kerja pengolahan gambar.",
       fact:"Teknologi kreatif bisa menjadi bekal keterampilan bagi mahasiswa Informatika.",
       tags:["Kuliah Umum","Teknologi"],
+<<<<<<< HEAD
       images:[{src:"assets/balai diklat.png",alt:"Foto bersama mahasiswa Informatika FTI UPGRIS di depan Balai Diklat Industri Denpasar"}]},
+=======
+      images:[{src:"https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=900&q=80",alt:"Suasana kuliah umum"},{src:"https://images.unsplash.com/photo-1475721027785-f74eccf877e2?w=900&q=80",alt:"Pembicara di podium"}]},
+>>>>>>> e817f00c8d65d38f3ded65419343005dc8fb5987
     {day:"Day 4",date:"21 Agustus 2026",title:"Pantai Pandawa & Pertunjukan Tari Kecak",place:"Pantai Pandawa, Badung",
       description:"Kami menikmati senja di Pantai Pandawa, dengan pasir lembut, perahu nelayan, dan tebing kapur di sekelilingnya. Sore harinya kami menonton Tari Kecak: puluhan penari bersuara serempak membentuk lingkaran di panggung dengan latar laut dan langit senja.",
       fact:"Kecak ditampilkan tanpa alat musik, iramanya berasal dari suara para penari.",
       tags:["Pantai","Kecak","Budaya"],
       images:[{src:"assets/tari_kecak.jpeg",alt:"Tari Kecak di panggung tepi pantai saat senja"},{src:"assets/pantai_pandawa.jpeg",alt:"Perahu nelayan di Pantai Pandawa"},{src:"assets/foto_bersama_pandawa.jpeg",alt:"Foto bersama peserta KKL di Pantai Pandawa"}]},
+<<<<<<< HEAD
     {day:"Day 4",date:"21 Agustus 2026",title:"Makan Malam Seafood di Jimbaran",place:"Pantai Jimbaran, Badung",
       description:"Setelah menikmati Pantai Pandawa dan Tari Kecak, malam harinya kami menikmati makan malam seafood bakar khas Jimbaran. Suasana ramai dengan musik live dan sorot lampu warna-warni membuat malam terasa hangat, jadi waktu santai bersama setelah seharian menjelajah Bali.",
       fact:"Makan malam bersama menjadi ruang akrab untuk bertukar cerita antaranggota kelompok.",
@@ -63,11 +80,21 @@ const siteData = {
       fact:"Pulang membawa ilmu, cerita, dan persahabatan.",
       tags:["Refleksi","Moments","Perjalanan"],
       images:[{src:"assets/kapal_feri_pulang.jpeg",alt:"Dek kapal feri saat perjalanan pulang dengan pemandangan laut dan pegunungan"}]}
+=======
+    {day:"Day 5",date:"22 Agustus 2026",title:"Refleksi, Dokumentasi & Pulang",place:"Perjalanan pulang",
+      description:"Rangkaian KKL ditutup dengan sesi refleksi kelompok, pengumpulan dokumentasi, dan foto bersama. Banyak pelajaran yang dibawa pulang, baik teknis maupun non-teknis, ditambah kenangan kebersamaan yang berharga.",
+      fact:"Pulang membawa ilmu, cerita, dan persahabatan.",
+      tags:["Refleksi","Moments"],
+      images:[{src:"https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=900&q=80",alt:"Foto kebersamaan tim"},{src:"https://images.unsplash.com/photo-1515187029135-18ee286d815b?w=900&q=80",alt:"Sesi refleksi penutup"}]}
+>>>>>>> e817f00c8d65d38f3ded65419343005dc8fb5987
   ],
 
   galleryFilters: [
     { id: "all", label: "Semua" },
+<<<<<<< HEAD
     { id: "industri", label: "Industri & Kampus" },
+=======
+>>>>>>> e817f00c8d65d38f3ded65419343005dc8fb5987
     { id: "alam", label: "Alam" },
     { id: "budaya", label: "Budaya" },
     { id: "kebersamaan", label: "Kebersamaan" }
@@ -81,6 +108,7 @@ const siteData = {
     {id:"g5",category:"budaya",src:"assets/tari_devdan_1.jpeg",caption:"Penari Devdan Show di atas panggung"},
     {id:"g6",category:"kebersamaan",src:"assets/tari_devdan_2.jpeg",caption:"Foto bersama artis Devdan Show"},
     {id:"g7",category:"alam",src:"assets/pantai_pandawa.jpeg",caption:"Perahu nelayan di Pantai Pandawa"},
+<<<<<<< HEAD
     {id:"g8",category:"budaya",src:"assets/devdan_malam.jpeg",caption:"Neon malam di area Devdan Show"},
     {id:"g9",category:"industri",src:"assets/pt victoria care.png",caption:"Lobi PT. Victoria Care Indonesia"},
     {id:"g10",category:"industri",src:"assets/balai diklat.png",caption:"Foto bersama di Balai Diklat Industri Denpasar"},
@@ -88,6 +116,9 @@ const siteData = {
     {id:"g12",category:"kebersamaan",src:"assets/jimbaran.png",caption:"Malam seafood dan live music di Jimbaran"},
     {id:"g13",category:"alam",src:"assets/kapal_feri_pulang.jpeg",caption:"Menyeberang dengan kapal feri saat perjalanan pulang"},
     {id:"g14",category:"kebersamaan",src:"assets/briefing_keberangkatan.jpeg",caption:"Briefing peserta KKL sebelum keberangkatan"}
+=======
+    {id:"g8",category:"budaya",src:"assets/devdan_malam.jpeg",caption:"Neon malam di area Devdan Show"}
+>>>>>>> e817f00c8d65d38f3ded65419343005dc8fb5987
   ],
 
   team: [
@@ -96,6 +127,10 @@ const siteData = {
       nim: "24670089",
       role: "Koordinator & Dokumentasi",
       note: "Menjaga ritme kelompok tetap sinkron dari briefing hingga laporan akhir.",
+<<<<<<< HEAD
+=======
+      avatar: "AD",
+>>>>>>> e817f00c8d65d38f3ded65419343005dc8fb5987
       linkedin: "https://linkedin.com",
       instagram: "https://instagram.com"
     },
@@ -104,6 +139,10 @@ const siteData = {
       nim: "24670056",
       role: "Notulen & Riset",
       note: "Catatan lapangan yang rapi jadi bahan utama jurnal harian kami.",
+<<<<<<< HEAD
+=======
+      avatar: "SP",
+>>>>>>> e817f00c8d65d38f3ded65419343005dc8fb5987
       linkedin: "https://linkedin.com",
       instagram: "https://instagram.com"
     },
@@ -112,6 +151,10 @@ const siteData = {
       nim: "24670124",
       role: "Fotografer",
       note: "Menangkap detail ruang, ekspresi, dan momen yang sulit ditulis kata.",
+<<<<<<< HEAD
+=======
+      avatar: "RN",
+>>>>>>> e817f00c8d65d38f3ded65419343005dc8fb5987
       linkedin: "https://linkedin.com",
       instagram: "https://instagram.com"
     },
@@ -120,6 +163,10 @@ const siteData = {
       nim: "24670060",
       role: "Liaison & Presentasi",
       note: "Jembatan komunikasi dengan mentor dan pembawa materi presentasi kelompok.",
+<<<<<<< HEAD
+=======
+      avatar: "ML",
+>>>>>>> e817f00c8d65d38f3ded65419343005dc8fb5987
       linkedin: "https://linkedin.com",
       instagram: "https://instagram.com"
     },
@@ -128,6 +175,10 @@ const siteData = {
       nim: "24670058",
       role: "Teknis & Observasi",
       note: "Fokus pada alur sistem, arsitektur, dan pertanyaan teknis di setiap kunjungan.",
+<<<<<<< HEAD
+=======
+      avatar: "DP",
+>>>>>>> e817f00c8d65d38f3ded65419343005dc8fb5987
       linkedin: "https://linkedin.com",
       instagram: "https://instagram.com"
     },
@@ -136,46 +187,80 @@ const siteData = {
       nim: "24670050",
       role: "Editor Jurnal",
       note: "Merapikan narasi harian agar dokumentasi mudah dibaca ulang nanti.",
+<<<<<<< HEAD
+=======
+      avatar: "NA",
+>>>>>>> e817f00c8d65d38f3ded65419343005dc8fb5987
       linkedin: "https://linkedin.com",
       instagram: "https://instagram.com"
     },
     {
       name: "Syalna Kurnia Putri",
       nim: "24670083",
+<<<<<<< HEAD
       role: "Dokumentasi Visual",
       note: "Merekam video dan potret singkat agar setiap kunjungan punya arsip visual yang lengkap.",
+=======
+      role: "Teknis & Observasi",
+      note: "Fokus pada alur sistem, arsitektur, dan pertanyaan teknis di setiap kunjungan.",
+      avatar: "DP",
+>>>>>>> e817f00c8d65d38f3ded65419343005dc8fb5987
       linkedin: "https://linkedin.com",
       instagram: "https://instagram.com"
     },
     {
       name: "Putra Inang Setiawan",
       nim: "24670033",
+<<<<<<< HEAD
       role: "Logistik & Akomodasi",
       note: "Memastikan jadwal, transportasi, dan perlengkapan kelompok berjalan lancar.",
+=======
+      role: "Teknis & Observasi",
+      note: "Fokus pada alur sistem, arsitektur, dan pertanyaan teknis di setiap kunjungan.",
+      avatar: "DP",
+>>>>>>> e817f00c8d65d38f3ded65419343005dc8fb5987
       linkedin: "https://linkedin.com",
       instagram: "https://instagram.com"
     },
     {
       name: "Ahmad Firdan Faiz",
       nim: "24670030",
+<<<<<<< HEAD
       role: "Humas & Komunikasi",
       note: "Menjalin komunikasi dengan pemandu dan pihak industri selama kunjungan.",
+=======
+      role: "Teknis & Observasi",
+      note: "Fokus pada alur sistem, arsitektur, dan pertanyaan teknis di setiap kunjungan.",
+      avatar: "DP",
+>>>>>>> e817f00c8d65d38f3ded65419343005dc8fb5987
       linkedin: "https://linkedin.com",
       instagram: "https://instagram.com"
     },
     {
       name: "Putra Ramadani",
       nim: "24670088",
+<<<<<<< HEAD
       role: "Bendahara",
       note: "Mencatat dan mengelola keperluan dana kelompok selama perjalanan.",
+=======
+      role: "Teknis & Observasi",
+      note: "Fokus pada alur sistem, arsitektur, dan pertanyaan teknis di setiap kunjungan.",
+      avatar: "DP",
+>>>>>>> e817f00c8d65d38f3ded65419343005dc8fb5987
       linkedin: "https://linkedin.com",
       instagram: "https://instagram.com"
     },
     {
       name: "Shandy Mahendra Ananta",
       nim: "246700135",
+<<<<<<< HEAD
       role: "Desain & Publikasi",
       note: "Menyiapkan materi visual dan publikasi dokumentasi kelompok.",
+=======
+      role: "Teknis & Observasi",
+      note: "Fokus pada alur sistem, arsitektur, dan pertanyaan teknis di setiap kunjungan.",
+      avatar: "DP",
+>>>>>>> e817f00c8d65d38f3ded65419343005dc8fb5987
       linkedin: "https://linkedin.com",
       instagram: "https://instagram.com"
     },

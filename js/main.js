@@ -109,19 +109,32 @@
     host.innerHTML = siteData.timeline
       .map((item, index) => {
         const tags = item.tags.map((tag) => `<span class="tag">#${tag}</span>`).join("");
+<<<<<<< HEAD
         const images = item.images || [];
         const slides = images
           .map(
             (img, i) => `
             <figure class="carousel-slide${i === 0 ? " is-active" : ""}" data-slide="${i}">
               <img src="${encodeURI(img.src)}" alt="${img.alt}" loading="lazy" data-zoom>
+=======
+        const slides = item.images
+          .map(
+            (img, i) => `
+            <figure class="carousel-slide${i === 0 ? " is-active" : ""}" data-slide="${i}">
+              <img src="${img.src}" alt="${img.alt}" loading="lazy">
+>>>>>>> e817f00c8d65d38f3ded65419343005dc8fb5987
             </figure>`
           )
           .join("");
 
         const dots =
+<<<<<<< HEAD
           images.length > 1
             ? `<div class="carousel-dots">${images
+=======
+          item.images.length > 1
+            ? `<div class="carousel-dots">${item.images
+>>>>>>> e817f00c8d65d38f3ded65419343005dc8fb5987
                 .map(
                   (_, i) =>
                     `<button type="button" class="carousel-dot${i === 0 ? " is-active" : ""}" data-dot="${i}" aria-label="Slide ${i + 1}"></button>`
@@ -130,7 +143,11 @@
             : "";
 
         const controls =
+<<<<<<< HEAD
           images.length > 1
+=======
+          item.images.length > 1
+>>>>>>> e817f00c8d65d38f3ded65419343005dc8fb5987
             ? `
             <div class="carousel-controls">
               <button type="button" class="carousel-btn" data-prev aria-label="Foto sebelumnya">
@@ -155,6 +172,7 @@
               <p class="timeline-desc">${item.description}</p>
               ${item.fact ? `<p class="timeline-fact"><strong>Catatan:</strong> ${item.fact}</p>` : ""}
               <div class="tag-row">${tags}</div>
+<<<<<<< HEAD
               ${
                 images.length
                   ? `<div class="timeline-carousel" data-carousel="${index}">
@@ -164,6 +182,13 @@
               </div>`
                   : ""
               }
+=======
+              <div class="timeline-carousel" data-carousel="${index}">
+                <div class="carousel-track">${slides}</div>
+                ${controls}
+                ${dots}
+              </div>
+>>>>>>> e817f00c8d65d38f3ded65419343005dc8fb5987
             </div>
           </article>`;
       })
@@ -222,6 +247,7 @@
       dot.addEventListener("click", () => goTo(Number(dot.dataset.dot)));
     });
 
+<<<<<<< HEAD
     if (total > 1) {
       let startX = null;
       carousel.addEventListener("touchstart", (e) => { startX = e.touches[0].clientX; }, { passive: true });
@@ -238,6 +264,8 @@
       if (img) openLightbox({ src: img.getAttribute("src"), caption: img.alt });
     });
 
+=======
+>>>>>>> e817f00c8d65d38f3ded65419343005dc8fb5987
     syncActiveOrientation(0);
   }
 
@@ -290,7 +318,11 @@
           data-gallery-id="${item.id}"
           aria-label="${item.caption}"
         >
+<<<<<<< HEAD
           <img src="${encodeURI(item.src)}" alt="${item.caption}" loading="lazy">
+=======
+          <img src="${item.src}" alt="${item.caption}" loading="lazy">
+>>>>>>> e817f00c8d65d38f3ded65419343005dc8fb5987
           <span class="gallery-caption">${item.caption}</span>
         </button>`
       )
@@ -305,7 +337,11 @@
 
   function openLightbox(item) {
     const panel = $(".lightbox-panel", lightbox);
+<<<<<<< HEAD
     lightboxImage.src = encodeURI(decodeURI(item.src));
+=======
+    lightboxImage.src = item.src;
+>>>>>>> e817f00c8d65d38f3ded65419343005dc8fb5987
     lightboxImage.alt = item.caption;
     lightboxCaption.textContent = item.caption;
     panel.classList.remove("is-portrait", "is-landscape");
