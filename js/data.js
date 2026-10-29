@@ -92,7 +92,7 @@ const siteData = {
 
   team: [
     {
-      name: "Azzam Darius",
+      name: "Darius Fikram Azzam",
       nim: "24670089",
       role: "Koordinator & Dokumentasi",
       note: "Menjaga ritme kelompok tetap sinkron dari briefing hingga laporan akhir.",
@@ -118,7 +118,7 @@ const siteData = {
     {
       name: "Dhini Aulia",
       nim: "24670060",
-      role: "Liaison & Presentasi",
+      role: "Laporan",
       note: "Jembatan komunikasi dengan mentor dan pembawa materi presentasi kelompok.",
       linkedin: "https://linkedin.com",
       instagram: "https://instagram.com"
@@ -134,7 +134,7 @@ const siteData = {
     {
       name: "Aufa Sascha Muhammad",
       nim: "24670050",
-      role: "Editor Jurnal",
+      role: "Laporan",
       note: "Merapikan narasi harian agar dokumentasi mudah dibaca ulang nanti.",
       linkedin: "https://linkedin.com",
       instagram: "https://instagram.com"
@@ -142,7 +142,7 @@ const siteData = {
     {
       name: "Syalna Kurnia Putri",
       nim: "24670083",
-      role: "Dokumentasi Visual",
+      role: "Laporan",
       note: "Merekam video dan potret singkat agar setiap kunjungan punya arsip visual yang lengkap.",
       linkedin: "https://linkedin.com",
       instagram: "https://instagram.com"
@@ -150,7 +150,7 @@ const siteData = {
     {
       name: "Putra Inang Setiawan",
       nim: "24670033",
-      role: "Logistik & Akomodasi",
+      role: "Videografer",
       note: "Memastikan jadwal, transportasi, dan perlengkapan kelompok berjalan lancar.",
       linkedin: "https://linkedin.com",
       instagram: "https://instagram.com"
@@ -158,7 +158,7 @@ const siteData = {
     {
       name: "Ahmad Firdan Faiz",
       nim: "24670030",
-      role: "Humas & Komunikasi",
+      role: "Videografer",
       note: "Menjalin komunikasi dengan pemandu dan pihak industri selama kunjungan.",
       linkedin: "https://linkedin.com",
       instagram: "https://instagram.com"
@@ -166,7 +166,7 @@ const siteData = {
     {
       name: "Putra Ramadani",
       nim: "24670088",
-      role: "Bendahara",
+      role: "Laporan",
       note: "Mencatat dan mengelola keperluan dana kelompok selama perjalanan.",
       linkedin: "https://linkedin.com",
       instagram: "https://instagram.com"
@@ -174,7 +174,7 @@ const siteData = {
     {
       name: "Shandy Mahendra Ananta",
       nim: "246700135",
-      role: "Desain & Publikasi",
+      role: "Laporan",
       note: "Menyiapkan materi visual dan publikasi dokumentasi kelompok.",
       linkedin: "https://linkedin.com",
       instagram: "https://instagram.com"
